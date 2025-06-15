@@ -1,17 +1,24 @@
-# 🔐 DictaX - Wordlist Generator for Pentesters
+# 🔐 DictaX - Wordlist Generator by PhysX
 
-DictaX adalah tool wordlist generator buatan **PhysX** yang dirancang khusus untuk kebutuhan **cybersecurity, ethical hacking, dan OSINT**.
-
-Dengan DictaX, kamu bisa membuat wordlist berbasis data personal target seperti nama, tanggal lahir, kebiasaan, hingga kata-kata unik — sangat cocok untuk social engineering dan brute force attack (dengan izin!).
+DictaX adalah tool **wordlist generator** cerdas buatan **PhysX** yang dirancang untuk membantu keperluan **cybersecurity, social engineering, dan ethical hacking**. Dengan hanya memasukkan nama, kata kunci, dan tanggal penting, DictaX mampu membangkitkan ribuan kemungkinan password realistis dalam sekejap.
 
 ---
 
-## ✨ Fitur Utama
-- 🧠 Smart pattern wordlist based on target info
-- 🧩 Custom kombinasi: nama, tanggal, angka, simbol
+## ⚙️ Fitur Unggulan
+- 🎯 Kombinasi nama, kata kunci, dan tanggal secara otomatis
+- 🔠 Variasi huruf besar, kecil, dan kapitalisasi
+- 🔢 Angka bertahap otomatis (contoh: 123, 1234, dst.)
+- 🔣 Tambahan simbol (!, @, #, $, %, &)
+- 🧠 Konversi vokal ke angka (contoh: a → 4, i → 1)
+- 📂 Dukungan input dari file leak password (opsional)
+- 💾 Output wordlist tersimpan otomatis
 
 ---
 
-## 📦 Cara Pakai
-```bash
-python3 DictaX.py
+## 📥 Cara Instalasi
+
+### Di Termux (Android) / Linux
+1. **Update & Install Python**
+   ```bash
+   pkg update && pkg upgrade
+   pkg install python git
